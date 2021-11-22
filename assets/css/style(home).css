@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.20em;
+  background-color: #fff;
+  color: #555;
+}
+
+p {
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+}
+
+input [type="text"],
+input[type="password"],
+input[type="search"] {
+  color: #5d5d5d;
+  width: 60%;
+  padding: 8px;
+}
+
+input,
+textarea {
+  outline: none;
+  border: none;
+  border: solid 1px #f2f2f2;
+}
+
+h1,
+h2 {
+  font: normal 170% "century gothic", arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #000;
+}
+
+h2 {
+  font-size: 140%;
+}
+   /* text-decoration: underline; */
+a,
+a:hover {
+  outline: none;
+  color: #f00d0d;
+}
+.header {
+  background-color: rgb(7, 7, 7);
+  height: 177px;
+  font-size: 0.8em;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+}
+
+.main,
+.logo,
+.menubar,
+.site_content,
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 880px;
+  padding-bottom: 40px;
+}
+
+.logo h1,
+.logo h2 {
+  font: normal 300% "century gothic", arial, sans-serif;
+  margin: 0 0 0 9px;
+}
+
+.logo_text h1,
+.logo_text h1 a,
+.logo_test h1 a:hover {
+  padding: 22px 0 0 0;
+  color: #f00d0d;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.logo_text h2 {
+  font-size: 0.99em;
+  padding: 4px 0 0 0;
+  color: rgb(245, 7, 7);
+}
+
+.menubar {
+  margin-left: 10%;
+  width: 950px;
+  height: 46px;
+}
+ul.menu {
+  float: right;
+}
+ul.menu li {
+  float: left;
+  padding: 0 0 0 40px;
+  list-style: none;
+  margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+  font: normal 100% "trebuchet ms", sans-serif;
+  display: block;
+  height: 20px;
+  padding: 6px 35px 5px 28px;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.menu li.selected a {
+  color: #f00d0d;
+}
+ul.menu li a:hover {
+  color: #ee0b0b;
+}
+
+.site_content {
+  width: 990px;
+  margin-left: center;
+  margin-right: center;
+  overflow: hidden;
+  
+  
+}
+
+.sidebar h2 {
+  color: #4b0082;
+}
+#login_field {
+  padding-left: 4%;
+  border: solid 1px #f2f2f2;
+  height: 35px;
+  width: 150px;
+}
+
+.lables_passreg_text {
+  font-size: 0.73em;
+  margin-top: 3%;
+}
+
+.footer {
+  margin: 0 auto;
+}
+
+.content {
+  text-align: left;
+  padding: 0 0 0 5px;
+  float: left;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.placats_block {
+  margin-bottom: 5%;
+}
+
+.placats_block img {
+  border-radius: 5px;
+  border: solid 5px #dad7d5;
+  width: 22%;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  padding: 28px 0 5px 0;
+  text-align: center;
+  background-color: black;
+  color: #ffffff;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.footer p {
+  padding: 0 0 10px 0;
+}
+
+.placats_block img {
+  max-height: 370px;
+  height: 280px;
+}
+
+/* soc medias  */
+
+.socialnet {
+  color: rgb(255, 255, 255);
+  font-size: 1.1em;
+  text-decoration: none;
+}
+.links {
+  color: darkgray;
+  text-decoration: none;
+}
+
+.soc-medias {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.soc-medias-items {
+  margin-bottom: 10px;
+}
+.soc-medias-items a {
+  text-decoration: none;
+  margin: 10px;
+}
+.soc-medias h1 {
+  margin: 10px;
+  color: black;
+}
+
+h5 {
+  margin: 1px;
+}
+.soc-medias-items i {
+  display: inline;
+  align-items: center;
+  color: #000;
+  transition: 500ms;
+  font-size: 2em;
+}
+.soc-medias-items i:hover {
+  font-size: 2.3em;
+}
+.fa-instagram:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#af22d3),
+    to(rgba(252, 56, 7, 0.89))
+  );
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial;
+}
+.fa-viber:hover {
+  color: #8f5db7;
+}
+.fa-telegram-plane:hover {
+  color: #0088cc;
+}
+.fa-linkedin-in:hover {
+  color: #0077b5;
+}
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+.fa-github:hover {
+  color: #6e5494;
+}
+
+.first-row,
+.second-row,
+.third-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-row,
+.second-row,
+.third-row {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+
+
+
